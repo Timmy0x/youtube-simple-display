@@ -1,0 +1,149 @@
+body {
+    background: lightblue;
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow-x: hidden;
+}
+
+#youmax {
+    height: 100%;
+    width: 100%;
+  
+    margin: 0;
+  
+    font-size: 0.9rem;
+    text-align:center;
+  
+    overflow-x:hidden;
+    overflow-y: scroll;
+
+    scroll-snap-type: y mandatory;
+  }
+/* Header */
+#youmax-header {
+    display: none;
+}
+#youmax-tabs {
+    display: none;
+}
+
+/* Encloser */
+#youmax-encloser {
+    padding-top: 0;
+    display: inline-block;
+}
+.youmax-video-tnail-box {
+    display: inline-block;
+    overflow: hidden;
+    cursor: hand;
+    scroll-snap-align: center;
+    background-color: whitesmoke;
+
+    height: 100%;
+    width: 100%;
+
+    border-color: white;
+    border-style: solid;
+    border-width:1%;
+  }
+  .youmax-video-tnail {
+    width: auto;
+    height: 80%;
+    
+    max-width: 100%;
+  }
+
+
+/* Video List */
+#youmax-video-list-div {
+    width: 100%;
+    height: 100%;
+}
+
+.youmax-video-list-title {
+    color:#438bc5;
+    display: inline-block;
+    padding:2% 10px;
+    padding-bottom: 0px;
+    font-weight:bold;
+    max-width:85%;
+    overflow:visible;
+}
+/* Video List Views */
+.youmax-video-list-views {
+  display: none;
+}
+
+  /* Tabs */
+  .youmax-tab {
+    background-color:rgb(230,230,230);
+    color:rgb(0, 0, 0);
+    text-shadow:0 1px 0 #fff;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor:pointer;
+  }
+  #youmax-tabs {
+    text-align:left;
+    background-color:rgb(230,230,230);
+    padding-left: 10px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+     padding: 25px 30px 0px 30px;
+    font-size: 18px;
+  }
+
+
+  /* Load More */
+  div #youmax-load-more-div {
+    display: none;
+  }
+
+  /* Video Duration */
+  .youmax-duration {
+    display: none;
+  }
+
+  /* Video Title */
+  .youmax-video-list-title {
+    font-size: x-large;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+/* Lightbox*/
+#youmax-lightbox {
+    position:absolute;
+    background-color:rgba(0,0,0,0);
+    z-index:1000000000;
+    width:94%;
+    height: 100%;
+    
+    left:3%;
+    top:0;
+
+    border: none;
+}
+#youmax-video-lightbox {
+  z-index: 100000;
+  width: 99%;
+  height: 515px;
+  margin-top: 5%;
+}
+/*#exit-button {
+  display: none;
+
+  width: 100%;
+  height: 15%;
+
+  cursor: pointer;
+
+  border: none;
+
+  font-size: x-large;
+}*/
